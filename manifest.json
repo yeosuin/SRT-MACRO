@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "KTX Macro",
-  "description": "KTX 매진 좌석 예약 도구",
-  "version": "1.4.0",
-  "permissions": ["https://www.letskorail.com/"],
+  "name": "srt Macro",
+  "description": "SRT 매진 좌석 예약 도구",
+  "version": "1.1.0",
+  "permissions": ["https:/etk.srail.kr/main.do/"],
   "icons": {
     "96": "icon96.png"
   },
@@ -12,7 +12,7 @@
       "all_frames": true,
       "js": ["content.js"],
       "css": ["content.css"],
-      "matches": ["https://www.letskorail.com/*"],
+      "matches": ["https://etk.srail.kr/*"],
       "run_at": "document_end"
     }
   ],
