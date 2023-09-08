@@ -5,7 +5,7 @@
   "version": "1.1.0",
   "permissions": ["https:/etk.srail.kr/main.do/"],
   "icons": {
-    "96": "icon96.png"
+    "96": "icon.png"
   },
   "content_scripts": [
     {
