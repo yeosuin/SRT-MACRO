@@ -5,7 +5,6 @@ const createCheckbox = () => {
   const $rows = document.querySelectorAll("div.tbl_wrap.th_thead > table > tbody > tr");
 
   if (!$rows.length) {
-    console.log("QNd")
     return;
   }
 
