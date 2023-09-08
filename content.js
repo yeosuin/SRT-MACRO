@@ -117,10 +117,10 @@ const macro = () => {
       const $button =
         $row
           .querySelector("td:nth-child(6)")
-          .querySelector('[src="/docs/2007/img/common/icon_apm_bl.gif"]') ||
+          .querySelector('.btn_small.btn_burgundy_dark.val_m.wx90') ||
         $row
           .querySelector("td:nth-child(6)")
-          .querySelector('[src="/docs/2007/img/common/icon_apm_rd.gif"]');
+          .querySelector('.btn_small.btn_burgundy_dark.val_m.wx90');
 
       if ($button) {
         $button.closest("a").click();
@@ -135,10 +135,10 @@ const macro = () => {
       const $button =
         $row
           .querySelector("td:nth-child(7)")
-          .querySelector('[src="/docs/2007/img/common/icon_apm_bl.gif"]') ||
+          .querySelector('.btn_small.btn_burgundy_dark.val_m.wx90') ||
         $row
           .querySelector("td:nth-child(7)")
-          .querySelector('[src="/docs/2007/img/common/icon_apm_rd.gif"]');
+          .querySelector('.btn_small.btn_burgundy_dark.val_m.wx90');
 
       if ($button) {
         $button.closest("a").click();
@@ -151,7 +151,7 @@ const macro = () => {
     if (isChecked(++uid)) {
       $row.querySelector("td:nth-child(8)").style.backgroundColor = "#f03e3e";
       const $button = $row.querySelector("td:nth-child(8)")
-                          .querySelector('[src="/docs/2007/img/common/icon_wait.gif"]');
+      .querySelector('.btn_small.btn_burgundy_dark.val_m.wx90');
 
       if ($button) {
         $button.closest("a").click();
