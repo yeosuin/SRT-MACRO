@@ -1,12 +1,12 @@
 .srt-macro-button {
-    width: 175px;
-    height: 44px;
-    line-height: 38px;
+    width: 200px;
+    height: 50px;
+    line-height: 40px;
     text-align: center;
     background: #572b4c;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 18px;
     border: 1px solid #572b4c;
-    border-radius: 20px;
+    border-radius: 5px;
     cursor: pointer;
 }
